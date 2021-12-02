@@ -16,3 +16,15 @@ func ExampleAvg() {
 	// 30
 
 }
+
+func ExampleTotalInCategory() {
+	fmt.Println(TotalInCategory([]types.Payment{
+		{Amount: 10, Category: "A"},
+		{Amount: 20, Category: "B"},
+		{Amount: 30, Category: "B"},
+		{Amount: 60, Category: "A"},
+	}, "A"))
+	// Output:
+	// 70
+
+}
