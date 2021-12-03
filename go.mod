@@ -1,3 +1,3 @@
-module github.com/akmaljalilov/pkg
+module github.com/akmaljalilov/bank
 
 go 1.17
